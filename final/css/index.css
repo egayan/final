@@ -1,0 +1,101 @@
+/* グローバルスタイル */
+body {
+  font-family: 'Helvetica', sans-serif;
+  color: white;
+  background-color: teal;
+}
+
+h1{
+	font-size:5em;
+	text-align:center;
+	line-height:0.95em;
+	font-weight:bold;
+  color: white;
+	text-shadow: 
+		0 0 0.05em #FFF59D,
+		0 0 0.06em #FFF59D,
+		0 0 0.07em #FFF59D,
+		0 0 0.08em #FFF59D,
+		0 0 0.09em #FFF59D,
+		0 0 0.20em #FFF59D,
+		0 0 0.20em #FFF59D,
+		0 0 0.20em #FFF59D,
+		0 0 0.50em #FFF59D;
+}
+
+/* ボタンスタイル */
+.button {
+  position: relative;
+  text-decoration: none;
+  color: #FFF;
+  border-radius: 3px;
+  padding: 0.5em 1em;
+  transition: background-color 0.3s ease;
+}
+
+.toroku {
+  background: red;
+}
+
+.delete {
+  background: blue;
+}
+
+.update {
+  background: red;
+}
+
+.indication {
+  background: red;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+/* テーブルスタイル */
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: teal;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  text-align: center;
+  border: 1px solid #a8b7c5;
+  padding: 15px;
+}
+
+th {
+  color: white;
+  background: linear-gradient(#829ebc, #225588);
+  box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.3) inset;
+  width: 25%;
+}
+
+td {
+  box-shadow: 0px -3px 5px 1px #eee inset;
+  width: 25%;
+}
+
+/* 角丸 */
+table th:first-child {
+  border-radius: 3px 0 0 0;
+}
+
+table th:last-child {
+  border-radius: 0 5px 0 0;
+  border-right: 1px solid #3c6690;
+}
+
+table tr:last-child td:first-child {
+  border-radius: 0 0 0 5px;
+}
+
+table tr:last-child td:last-child {
+  border-radius: 0 0 5px 0;
+}
+
